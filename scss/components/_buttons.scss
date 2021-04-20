@@ -12,7 +12,8 @@
   border-radius: 5px;
 
   &:hover {
-    background: lighten($color: $primary, $amount: 40%);
+    background: lighten($color: $primary, $amount: 15%);
+    @include transition;
   }
 
   @media #{$brk-tablet} {

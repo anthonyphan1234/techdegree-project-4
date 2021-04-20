@@ -6,3 +6,8 @@
     margin-top: 10px;
     max-width: 100%; 
 }
+
+//transition
+@mixin transition {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}

@@ -407,7 +407,8 @@ a {
   border-radius: 5px;
 }
 .btn:hover {
-  background: #dddddd;
+  background: #9d9d9d;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 @media (min-width: 768px) {
   .btn {
