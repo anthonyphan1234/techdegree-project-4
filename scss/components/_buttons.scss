@@ -27,20 +27,40 @@
 
 .default {
   background-color: $default;
+  &:hover {
+    background: lighten($color: $default, $amount: 15%);
+    @include transition;
+  }
 }
 
 .error {
   background-color: $error;
+  &:hover {
+    background: lighten($color: $error, $amount: 15%);
+    @include transition;
+  }
 }
 
 .info {
   background-color: $info;
+  &:hover {
+    background: lighten($color: $info, $amount: 15%);
+    @include transition;
+  }
 }
 
 .success {
   background-color: $success;
+  &:hover {
+    background: lighten($color: $success, $amount: 15%);
+    @include transition;
+  }
 }
 
 .warning {
   background-color: $warning;
+  &:hover {
+    background: lighten($color: $warning, $amount: 15%);
+    @include transition;
+  }
 }
