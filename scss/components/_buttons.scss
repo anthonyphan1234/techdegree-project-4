@@ -3,35 +3,43 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
 
-    @media #{$brk-tablet} {
-      padding: 10px 30px;
+  &:hover {
+    background: lighten($color: $primary, $amount: 40%);
+  }
+
+  @media #{$brk-tablet} {
+    padding: 10px 30px;
+
+    &+.btn {
+      margin-left: 10px;
     }
   }
-  
-  .default {
-    background-color: $default;
-  }
-  
-  .error {
-    background-color: $error;
-  }
-  
-  .info {
-    background-color: $info;
-  }
-  
-  .success {
-    background-color: $success;
-  }
-  
-  .warning {
-    background-color: $warning;
-  }
+}
+
+.default {
+  background-color: $default;
+}
+
+.error {
+  background-color: $error;
+}
+
+.info {
+  background-color: $info;
+}
+
+.success {
+  background-color: $success;
+}
+
+.warning {
+  background-color: $warning;
+}
