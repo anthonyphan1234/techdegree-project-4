@@ -26,41 +26,21 @@
 }
 
 .default {
-  background-color: $default;
-  &:hover {
-    background: lighten($color: $default, $amount: 15%);
-    @include transition;
-  }
+  @include button($default);
 }
 
 .error {
-  background-color: $error;
-  &:hover {
-    background: lighten($color: $error, $amount: 15%);
-    @include transition;
-  }
+  @include button($error);
 }
 
 .info {
-  background-color: $info;
-  &:hover {
-    background: lighten($color: $info, $amount: 15%);
-    @include transition;
-  }
+  @include button($info);
 }
 
 .success {
-  background-color: $success;
-  &:hover {
-    background: lighten($color: $success, $amount: 15%);
-    @include transition;
-  }
+  @include button($success);
 }
 
 .warning {
-  background-color: $warning;
-  &:hover {
-    background: lighten($color: $warning, $amount: 15%);
-    @include transition;
-  }
+  @include button($warning);
 }

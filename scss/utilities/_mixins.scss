@@ -1,13 +1,32 @@
-//images mixins
+/* ============================================= */
+/*              Button Color                     */
+/* ============================================= */
+
+@mixin button($color) {
+    background-color: $color;
+
+    &:hover {
+        background-color: lighten($color, 15%);
+        @include transition
+    }
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
 @mixin img-layout {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
-//transition
+/* ============================================= */
+/*              Transitions                      */
+/* ============================================= */
+
 @mixin transition {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }

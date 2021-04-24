@@ -5,6 +5,24 @@
 /* Utilities Imports */
 /* ============================================= */
 /* ============================================= */
+/*              Color Variables                  */
+/* ============================================= */
+/* ============================================= */
+/*              Button Colors                    */
+/* ============================================= */
+/* ============================================= */
+/*              Media Queries Breakpoint         */
+/* ============================================= */
+/* ============================================= */
+/*              Button Color                     */
+/* ============================================= */
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* ============================================= */
+/*              Transitions                      */
+/* ============================================= */
+/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -423,7 +441,7 @@ a {
   background-color: #51ddfc;
 }
 .default:hover {
-  background: #9cecfd;
+  background-color: #9cecfd;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -431,7 +449,7 @@ a {
   background-color: #e4757a;
 }
 .error:hover {
-  background: #f1b5b8;
+  background-color: #f1b5b8;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -439,7 +457,7 @@ a {
   background-color: #927bc1;
 }
 .info:hover {
-  background: #bdafd9;
+  background-color: #bdafd9;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -447,7 +465,7 @@ a {
   background-color: #63cc82;
 }
 .success:hover {
-  background: #9ddfb0;
+  background-color: #9ddfb0;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -455,7 +473,7 @@ a {
   background-color: #fd7856;
 }
 .warning:hover {
-  background: #feb4a2;
+  background-color: #feb4a2;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 

@@ -1,4 +1,7 @@
-// Color Variables
+/* ============================================= */
+/*              Color Variables                  */
+/* ============================================= */
+
 $primary: #777;
 $headline: #58e1c1;
 $default: #51ddfc;
@@ -7,5 +10,29 @@ $info: #927bc1;
 $success: #63cc82;
 $warning: #fd7856;
 
-// Media Query Breakpoints
+$themes:(
+    'col-1': $info,
+    'col-2': $warning,
+    'col-3': #deb2ee,
+    'col-4': #7ee6fd,
+    'col-5': #88d9a0,
+    'col-6': #4da2bb,
+    'col-7': #ec9fa3,
+    'col-8': #fd9f85,
+    'col-9': $error,
+    'col-10': $success,
+    'col-11': $default,
+    'col-12': #80e8d1,
+);
+/* ============================================= */
+/*              Button Colors                    */
+/* ============================================= */
+
+$colors: ($default, $error, $info, $success, $warning);
+
+
+/* ============================================= */
+/*              Media Queries Breakpoint         */
+/* ============================================= */
+
 $brk-tablet: '(min-width: 768px)';
